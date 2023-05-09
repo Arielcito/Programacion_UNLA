@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1683229034 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1683127980 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\insertionsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1683138798 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\selectionsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1683229071 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\bubblesort.c
+
+1683229083 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\mergesort.c
+
+1683229117 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\selectsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1683229098 source:c:\users\ariel\onedrive\escritorio\programacion\facultad\programacion\programacion 1\algoritmos\algorithms\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
