@@ -16,6 +16,8 @@ int main()
             Ejercicio14();
            case 13:
             Ejercicio13();
+        case 11:
+            Ejercicio11();
         }
     }
     return 0;

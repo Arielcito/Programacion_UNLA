@@ -3,27 +3,33 @@
 //palíndromo es una palabra que se lee igual de izquierda a derecha o de derecha a izquierda
 #include <stdio.h>
 #include <stdlib.h>
-#include <bool.h>
+#include <stdbool.h>
 
 int Ejercicio13(){
-    int index, i;
-    char cadena[100],reverse[100];
+    int index, i,leftIndex,rightIndex;
+    char inputString[100];
     bool isPalindromo = false;
 
     printf("Ingrese una palabra o escriba SALIR: ");
-    scanf("%s", cadena);
+    scanf("%s", inputString);
 
-    while(candena != "SALIR"){
-        int length = strlen(cadena);
-        for (i = length; i >= index; i--) {
-            cadena[i + 1] = cadena[i];
+    while(inputString != "SALIR"){
+        int length = strlen(inputString);
+
+        leftIndex = 0;
+        rightIndex = length - 1;
+        while (leftIndex < rightIndex) {
+            if (inputString[leftIndex] != inputString[rightIndex]) {
+                printf("%s no es un Palindromo \n", inputString);
+                return 0;
+            }
+            leftIndex++;
+            rightIndex--;
         }
-        if(strcmp(cadena,reverse) == 0){
-            isPalindromo = true;
-        }
-        printf("Es palindromo?: %s\n", isPalindromo);
+
+        printf("%s es palindromo \n", inputString);
         printf("Ingrese una palabra: ");
-        scanf("%s", cadena);
+        scanf("%s", inputString);
     }
 
     return 0;
